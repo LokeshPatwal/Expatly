@@ -1,14 +1,9 @@
 import React from 'react'
 import ExpatlyLogo from '../../assets/ExpatlyLogo.png'
-import { Box, Stack, Paper } from '@mui/material';
+import { Stack, Paper } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
 import TextField from '@mui/material/TextField';
-import LanguageConvertIcon from '../../assets/languageConvertIcon.png'
-import NotificationBellIcon from '../../assets/NotificationBell.png'
-import BookMarkIcon from '../../assets/Bookmark.png'
-import SettingsIcon from '../../assets/settingIcon.png'
 import ProfilePicture from '../../assets/ProfilePicture.png'
-import DropdownIcon from '../../assets/DropdownIcon.png'
 import Image from '../Image';
 import { Icon } from '@iconify/react';
 

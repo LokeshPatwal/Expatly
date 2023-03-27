@@ -5,13 +5,6 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import HomeIcon from '../../assets/Home.png';
-import Network from '../../assets/Network.png';
-import Jobs from '../../assets/Jobs.png';
-import Message from '../../assets/Message.png';
-import Documents from '../../assets/Documents.png';
-import Users from '../../assets/Users.png';
-import Logout from '../../assets/Logout.png';
 import { Icon } from '@iconify/react';
 
 
@@ -27,7 +20,7 @@ const SideBar = () => {
     };
 
     return (
-        <Paper elevation={0} sx={{ width: '298px', borderRadius: '12px', height: '100vh' }}>
+        <Paper elevation={0} sx={{ borderRadius: '12px', height: '100vh' }}>
             <List sx={{ pt: '3rem' }}>
                 <Divider />
                 <ListItem disablePadding onClick={() => setActive('Home')} >

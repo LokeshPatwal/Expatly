@@ -6,7 +6,6 @@ import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import { Box, Typography } from '@mui/material';
-import { ListData } from '../ListItemData';
 import { v4 as uuidv4 } from 'uuid';
 
 
@@ -20,7 +19,7 @@ const WhatsappLink = ({ data }) => {
             <List sx={{ display: 'flex', flexDirection: 'column', gap: { xs: '0px', xl: '1rem' } }}>
                 {
                     data?.map((item, index) => {
-                        return <ListItem key={uuidv4() } >
+                        return <ListItem key={uuidv4()} >
                             <ListItemIcon sx={{ minWidth: '2rem' }}>
                                 <CheckIcon sx={{ color: '#FD493E' }} />
                             </ListItemIcon>
